@@ -1,0 +1,15 @@
+function main() {
+  t223_432 = "window";  // @0 k185 op233 [L 2]
+  t221_433 = "prototype";  // @10 k201 op233 [L 1]
+  t220_434 = "ygHP1";  // @23 k153 op233 [L 1]
+  t217_435 = "uOdMb2";  // @32 k41 op233 [L 1]
+  t214_436 = "querySelectorAll";  // @42 k121 op233 [L 1]
+  t213_437 = "querySelector";  // @62 k137 op233 [L 1]
+  t212_438 = "ZMiod6";  // @79 k89 op233 [L 1]
+  t211_439 = "Element";  // @89 k233 op233 [L 1]
+  t209_440 = "Document";  // @100 k57 op233 [L 1]
+  t208_441 = "style";  // @112 k73 op233 [L 1]
+  t205_442 = CLOS(probe_29_webrtc);                                              // @126 k92 op216 [L 1]
+  t162_443 = r205;  // @151 k147 op150 [L 1]
+  goto L5672_82;                                                          // @154 k244 op53 [L 1]
+}

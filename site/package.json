@@ -1,0 +1,8 @@
+{
+  "name": "turnstile-payload-variability-site",
+  "private": true,
+  "type": "module",
+  "scripts": { "build": "node build.mjs" },
+  "dependencies": { "react": "18.3.1", "react-dom": "18.3.1" },
+  "devDependencies": { "esbuild": "0.28.2" }
+}
