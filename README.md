@@ -28,12 +28,7 @@ Per-function verification class (`SC-verified`, `SHA-gated`, `gated, not execute
 
 Short excerpts from each layer. Both sides are real code from build 3158346939, trimmed with `// ...`. In the VM functions the trailing trace comments (`// #pc:key:op [...]`) are dropped for width.
 
-How exact these pairs are:
-
-- Each pair shows the same code on both sides: the same function, at the same pcs or lines. The excerpts are trimmed with `// ...` and nothing else is changed.
-- For the VM, the encrypted `/fo/` response that CF serves is not published here, so "before" starts one step later. It is the decrypted bytecode, still under the per-instruction key, followed by the pipeline's listing and lift. The listing and lift files live in the private pipeline repo.
-- In the stage-2 example, the `while` loop and the `if`/`else` were rebuilt from the branch edges in the bytecode. The loop body never ran in the traced sessions. The pipeline marks this region display-only (see [V11](docs/PIPELINE-3158346939.md#v11-region-gating-h120)).
-- The "after" files keep some leftovers: property names held in locals (`v12 = "nodeType"`), dead assignments, and comma expressions in loop conditions.
+Each pair shows the same code on both sides: the same function, at the same pcs or lines. The excerpts are trimmed with `// ...` and nothing else is changed.
 
 ### 1. Orchestrator: strings, opaque numbers, indirect calls, names
 
